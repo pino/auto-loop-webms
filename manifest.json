@@ -1,0 +1,21 @@
+{
+	"manifest_version": 2,
+	"name": "Auto-Loop Webms",
+	"short_name": "Auto-Loop Webms",
+	"description": "Automatically sets all webms to auto-loop by default.",
+	"version": "0.0.1",
+	"icons": {
+		"16": "icon16.png",
+		"48": "icon48.png",
+		"128": "icon128.png"
+	},
+	"homepage_url": "https://github.com/zach-adams/downloads-overwrite-already-existing-files",
+	"minimum_chrome_version": "45",
+	"content_scripts": [
+		{
+			"matches": ["<all_urls>"],
+			"js": ["content_script.js"],
+			"load_at": "document_end"
+		}
+	]
+}
