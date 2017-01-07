@@ -2,6 +2,7 @@
 
  Auto-Loop Webms
  v0.0.1
+ Zach Adams - zach@zach-adams.com
  Copyright (C) 2017 Zachary Adams
 
  This program is free software: you can redistribute it and/or modify
@@ -15,8 +16,6 @@
  GNU General Public License for more details.
 
  {http://www.gnu.org/licenses/}
-
- Zach Adams - zach@zach-adams.com
 
  “You never know what worse luck your bad luck has saved you from.”
  ~ Cormac McCarthy, No Country For Old Men

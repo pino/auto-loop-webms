@@ -13,8 +13,12 @@
 	"minimum_chrome_version": "45",
 	"content_scripts": [
 		{
-			"matches": ["<all_urls>"],
-			"js": ["content_script.js"],
+			"matches": [
+				"<all_urls>"
+			],
+			"js": [
+				"content_script.js"
+			],
 			"load_at": "document_end"
 		}
 	]
