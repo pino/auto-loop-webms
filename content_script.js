@@ -42,7 +42,7 @@
 		let source = video.currentSrc || video.src;
 		source = source.split('?')[0];
 
-		// Not a webm, this isn't the video tag we're looking for.
+		// Not a webm or an mp4, this isn't the video tag we're looking for.
 		if (!source.endsWith('webm') && !source.endsWith('mp4')) {
 			return;
 		}
