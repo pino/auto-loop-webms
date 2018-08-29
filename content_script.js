@@ -43,7 +43,7 @@
 		source = source.split('?')[0];
 
 		// Not a webm, this isn't the video tag we're looking for.
-		if (!source.endsWith('webm')) {
+		if (!source.endsWith('webm') && !source.endsWith('mp4')) {
 			return;
 		}
 
